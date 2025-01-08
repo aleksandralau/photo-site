@@ -1,0 +1,91 @@
+<html>
+<head> 
+    <title>Amaia Photography
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="dark-mode-toggle">
+        <label for="dark-mode">
+            <input type="checkbox" id="dark-mode" /> Ciemny Tryb
+        </label>
+    </div>
+    <header>
+        <h1>
+            <img src="images/amaia_photography.png" class="img-title"/>
+        </h1>
+    </header>
+
+<main>
+    <div class="menu-flex">
+        <div>
+            <section class="about-me-section">
+                <h2 class="section-title">O mnie</h2>
+                <div class="about-me-photo">
+                <img src="images/its_me.jpg" class="its-me unicorn-cursor" alt="photographer photo - blond woman with camera">
+                <div class="about-me">
+                <span class="about-me-span">Kilka słów o mnie</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, perspiciatis a. Dolorum consectetur nemo, veniam non eaque distinctio aut consequuntur dolore ut illum nesciunt maxime numquam corrupti temporibus ducimus assumenda! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus omnis molestias voluptates, temporibus reprehenderit fuga quisquam pariatur, totam tempora dicta asperiores numquam voluptas accusamus facere corrupti unde ut, ab ipsam?</p>
+                </div></div>
+            </section>
+        </div>
+
+    <div class="menu-style">
+
+        <section class="menu-items">
+            <h2 class="second-title-style">Portfolio</h2>
+            <ul class="section-menu">
+                <li><a href="#" class="increase">Sesje portretowe </a>
+                </li>
+                <li><a href="#" class="increase">Sesje charakteryzacyjne</a>
+                </li>
+                <li><a href="#" class="increase">Historie miłosne</a>
+                </li>
+                <li><a href="#" class="increase">Fotografia rodzinna</a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="menu-items">
+            <h2 class="second-title-style">Oferta</h2>
+            <ul class="section-menu">
+                <li><a href="#">Sesje portretowe </a>
+                </li>
+                <li><a href="#">Sesje charakteryzacyjne</a>
+                </li>
+                <li><a href="#">Historie miłosne</a>
+                </li>
+                <li><a href="#">Fotografia rodzinna</a>
+                </li>
+            </ul>
+        </section>
+        <section class="menu-items">
+            <h2 class="second-title-style">Kontakt</h2>
+            <address class="adress-style">
+                <ul class="section-menu">   
+                    <li><img src="images/mail.png" class="contact-icon">
+                        <b>E-mail:</b> 
+                        <a href="mailto:amaialien@protonmail.ch">amaialien@protonmail.ch</a>
+                    </li>
+                    <li><img src="images/phone.png" class="contact-icon">
+                        <b>Tel:</b>
+                        <a href="tel:+48 789 071 257">+48 789 071 257</a>
+                    </li>
+                    <li><img src="images/pin.png" class="contact-icon"><b>Tilburg</b></li>
+                    <li>
+                        <button type="submit" class="button">Napisz wiadomość</button>
+                    </li>
+                </ul>
+            </address>
+        </section>
+    </div>
+
+</main>
+    <script>
+        document.getElementById('dark-mode').addEventListener('change', function () {
+        document.body.classList.toggle('dark-mode');
+        });
+    </script>
+</body>
+</html>
